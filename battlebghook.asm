@@ -8,4 +8,4 @@ main:
 	bx r1
 
 .align 2
-offset:	.word 0x08b01480+1
+offset:	.word 0x08b01480+1 @Replace it with the pointer of battlebgcode.asm
