@@ -4,7 +4,7 @@
 2. Insert `Navenatox_Pallete_Patch_Fix.asm`.
 3. Insert `RTC.asm`
 
-In Line 436 `updateNPCPal: ......... .word 0x08XXXXXX+1`.  with XXXXXX being the offset of where you just inserted the `Navenatox_Pallete_Patch_Fix.asm`. This is not a pointer, do not reverse or add anything to the offset, just change the number after 0x08 exactly where you inserted it and keep the +1 after it.
+In Line 436 `updateNPCPal: ......... .word 0x08XXXXXX+1` with XXXXXX being the offset of where you just inserted the `Navenatox_Pallete_Patch_Fix.asm`. This is not a pointer, do not reverse or add anything to the offset, just change the number after 0x08 exactly where you inserted it and keep the +1 after it.
 
 If I have put it in 9045F0, I will write `0x089054F1`.
 
