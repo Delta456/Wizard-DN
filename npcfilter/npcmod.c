@@ -119,5 +119,5 @@ const unsigned int colors[144] __attribute__((aligned(4)))={ 0x502A00A8, 0x502A0
 const unsigned int nonList[4] ={ 0x4, 0x8, 0x9, 0xFF };
 
 // Removes Falshing problem from Navenatox's Pallete Patch
-if (*(char*)(0x20385F4 + 6) == 1 && *(char*)(0x20385F4 + 10)) cpuset(0x20385F4 + 4, 0x20375f8, 0x200 | 1 << 24);
+if ((char*)(0x20385F4 + 6) == 1 && (char*)(0x20385F4 + 10)) cpuset(0x20385F4 + 4, 0x20375f8, 0x200 | 1 << 24);
 
