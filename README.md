@@ -8,9 +8,9 @@ In Line 436 `updateNPCPal: ......... .word 0x08XXXXXX+1` with XXXXXX being the o
 
 If I have put it in 9045F0, I will write `0x089054F1`.
 
-4.Compile `npcmod.c` instead of `npcmod.asm`
 
-5. Put all the other asm files.
+4. Insert all the files accordingly.
+
 
 Wizard-DN
 --------------
