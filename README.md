@@ -9,7 +9,8 @@ In Line 436 `updateNPCPal: ......... .word 0x08XXXXXX+1` with XXXXXX being the o
 If I have put it in 9045F0, I will write `0x089054F1`.
 
 
-4. Insert all the files accordingly.
+4. Also null out the eight bytes from `0x0859A28` to `0x0859A2F` with 00's
+and at `0x0859A12`, put 00 00
 
 
 Wizard-DN
